@@ -22,12 +22,9 @@ class csvToJSON{
 
     }
 
-    
     /**
      * 
-     * @param {*string} folderPath - absolute folder path (including the last "\")
-     * @param {*string} fileName - fileName (including the .csv extension)
-     * @returns array of object of properties from the csv file
+     * @param {*string} outputFileName - output fileName including .json extension
      */
     convertCSVToJSON(outputFileName){
         term(`\nEnter complete file path (including "file.csv"):\n`);
